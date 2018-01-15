@@ -15,9 +15,15 @@ Other container runtimes:
 # Kom ihåg.
 - Lägg alltid till MachineName/Hostname i loggen
   för debugging.
-  
+- docker history <image>
+
 
 
 # Dockerized .net application
 
 
+# Multi stage 
+COPY --from=1 <from-path> <to-path>
+
+# Docker networks
+- container-namnen är uppslagningsbara (DNS)
